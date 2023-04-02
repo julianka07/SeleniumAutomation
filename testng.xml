@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+<!--    Open the browser before every Test-->
+    <test enabled="false" verbose="2" preserve-order="true" name="Login Tests - Chrome">
+        <parameter name="browserCode" value="CH"></parameter>
+        <classes>
+            <!--Navigate to the url before every class-->
+            <class name="login.PositiveLoginTest">
+                <!-- Before Method -->
+                <methods>
+                    <include name="TC01_positive_login"/>
+                </methods>
+            </class>
+            <!--Navigate to the url before every class-->
+            <class name="login.NegativeLoginTest">
+                <!-- Before Method -->
+                <methods>
+                    <include name="TC01_negative_login"/>
+                    <include name="TC02_negative_login_using_dataprovider"/>
+                    <include name="TC03_negative_login_csv"/>
+                </methods>
+                <!-- After Method -->
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="Login Tests - FireFox">
+        <parameter name="browserCode" value="FF"></parameter>
+        <classes>
+            <!--Navigate to the url before every class-->
+                        <class name="login.PositiveLoginTest">
+                            <!-- Before Method -->
+                            <methods>
+                                <include name="TC01_positive_login"/>
+                            </methods>
+                        </class>
+            <!--Navigate to the url before every class-->
+            <class name="login.NegativeLoginTest">
+                <!-- Before Method -->
+                <methods>
+                    <include name="TC01_negative_login"/>
+                    <include name="TC02_negative_login_using_dataprovider"/>
+                    <include name="TC03_negative_login_csv"/>
+                </methods>
+                <!-- After Method -->
+            </class>
+        </classes>
+    </test>
+</suite>

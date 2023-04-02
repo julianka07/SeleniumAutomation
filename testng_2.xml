@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/juliakristy/IdeaProjects/SeleniumClass1">
+        <classes>
+            <class name="HomeWorkCRM.CRMtest">
+                <methods>
+                    <include name="TC01_positive_login"/>
+                    <include name="TC02_negative_login"/>
+                </methods>
+            </class>
+            <class name="HomeWorkCRM.form.MouseHover">
+                <methods>
+                    <include name="testLogin"/>
+                </methods>
+            </class>
+            <class name="HomeWorkCRM.NegativeLogin">
+                <methods>
+                    <include name="testLogin"/>
+                </methods>
+            </class>
+            <class name="login.NegativeLoginTest">
+                <methods>
+                    <include name="TC01_negative_login"/>
+                </methods>
+            </class>
+            <class name="login.PositiveLoginTest">
+                <methods>
+                    <include name="TC01_positive_login"/>
+                </methods>
+            </class>
+            <class name="testNg.Test1">
+                <methods>
+                    <include name="testMethod"/>
+                    <include name="testMethod2"/>
+                </methods>
+            </class>
+            <class name="testNg.Test2">
+                <methods>
+                    <include name="testMethod3"/>
+                    <include name="testMethod4"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
