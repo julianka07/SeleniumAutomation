@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="28" passed="17" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-02T18:52:46 EDT" name="Command line suite" finished-at="2023-04-02T18:57:16 EDT" duration-ms="269797">
+    <groups>
+    </groups>
+    <test started-at="2023-04-02T18:52:46 EDT" name="Command line test" finished-at="2023-04-02T18:57:16 EDT" duration-ms="269797">
+      <class name="login.NegativeLoginTest">
+        <test-method is-config="true" signature="openURL(java.lang.String)[pri:0, instance:login.NegativeLoginTest@1460a8c0]" started-at="2023-04-02T18:52:46 EDT" name="openURL" finished-at="2023-04-02T18:52:52 EDT" duration-ms="5664" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method signature="TC01_negative_login()[pri:0, instance:login.NegativeLoginTest@1460a8c0]" started-at="2023-04-02T18:52:52 EDT" name="TC01_negative_login" finished-at="2023-04-02T18:53:01 EDT" duration-ms="8990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_negative_login -->
+        <test-method is-config="true" signature="closeAll()[pri:0, instance:login.NegativeLoginTest@1460a8c0]" started-at="2023-04-02T18:53:01 EDT" name="closeAll" finished-at="2023-04-02T18:53:04 EDT" duration-ms="2652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAll -->
+        <test-method is-config="true" signature="openURL(java.lang.String)[pri:0, instance:login.NegativeLoginTest@1460a8c0]" started-at="2023-04-02T18:53:04 EDT" name="openURL" finished-at="2023-04-02T18:53:08 EDT" duration-ms="4854" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method signature="TC02_negative_login_using_dataprovider(java.lang.String,java.lang.String)[pri:0, instance:login.NegativeLoginTest@1460a8c0]" started-at="2023-04-02T18:53:08 EDT" name="TC02_negative_login_using_dataprovider" data-provider="users" finished-at="2023-04-02T18:53:16 EDT" duration-ms="7819" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_negative_login_using_dataprovider -->
+        <test-method is-config="true" signature="closeAll()[pri:0, instance:login.NegativeLoginTest@1460a8c0]" started-at="2023-04-02T18:53:16 EDT" name="closeAll" finished-at="2023-04-02T18:53:19 EDT" duration-ms="2510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAll -->
+        <test-method is-config="true" signature="openURL(java.lang.String)[pri:0, instance:login.NegativeLoginTest@1460a8c0]" started-at="2023-04-02T18:53:19 EDT" name="openURL" finished-at="2023-04-02T18:53:24 EDT" duration-ms="5471" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method signature="TC02_negative_login_using_dataprovider(java.lang.String,java.lang.String)[pri:0, instance:login.NegativeLoginTest@1460a8c0]" started-at="2023-04-02T18:53:24 EDT" name="TC02_negative_login_using_dataprovider" data-provider="users" finished-at="2023-04-02T18:53:33 EDT" duration-ms="8354" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[julia]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2213]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_negative_login_using_dataprovider -->
+        <test-method is-config="true" signature="closeAll()[pri:0, instance:login.NegativeLoginTest@1460a8c0]" started-at="2023-04-02T18:53:33 EDT" name="closeAll" finished-at="2023-04-02T18:53:35 EDT" duration-ms="2499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAll -->
+        <test-method is-config="true" signature="openURL(java.lang.String)[pri:0, instance:login.NegativeLoginTest@1460a8c0]" started-at="2023-04-02T18:53:35 EDT" name="openURL" finished-at="2023-04-02T18:53:40 EDT" duration-ms="5260" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method signature="TC02_negative_login_using_dataprovider(java.lang.String,java.lang.String)[pri:0, instance:login.NegativeLoginTest@1460a8c0]" started-at="2023-04-02T18:53:40 EDT" name="TC02_negative_login_using_dataprovider" data-provider="users" finished-at="2023-04-02T18:53:49 EDT" duration-ms="8201" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_negative_login_using_dataprovider -->
+        <test-method is-config="true" signature="closeAll()[pri:0, instance:login.NegativeLoginTest@1460a8c0]" started-at="2023-04-02T18:53:49 EDT" name="closeAll" finished-at="2023-04-02T18:53:51 EDT" duration-ms="2498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAll -->
+        <test-method is-config="true" signature="openURL(java.lang.String)[pri:0, instance:login.NegativeLoginTest@1460a8c0]" started-at="2023-04-02T18:53:51 EDT" name="openURL" finished-at="2023-04-02T18:54:00 EDT" duration-ms="8574" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method signature="TC02_negative_login_using_dataprovider(java.lang.String,java.lang.String)[pri:0, instance:login.NegativeLoginTest@1460a8c0]" started-at="2023-04-02T18:54:00 EDT" name="TC02_negative_login_using_dataprovider" data-provider="users" finished-at="2023-04-02T18:54:08 EDT" duration-ms="8357" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_negative_login_using_dataprovider -->
+        <test-method is-config="true" signature="closeAll()[pri:0, instance:login.NegativeLoginTest@1460a8c0]" started-at="2023-04-02T18:54:08 EDT" name="closeAll" finished-at="2023-04-02T18:54:12 EDT" duration-ms="4000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAll -->
+        <test-method is-config="true" signature="openURL(java.lang.String)[pri:0, instance:login.NegativeLoginTest@1460a8c0]" started-at="2023-04-02T18:54:12 EDT" name="openURL" finished-at="2023-04-02T18:54:19 EDT" duration-ms="6639" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method signature="TC02_negative_login_using_dataprovider(java.lang.String,java.lang.String)[pri:0, instance:login.NegativeLoginTest@1460a8c0]" started-at="2023-04-02T18:54:19 EDT" name="TC02_negative_login_using_dataprovider" data-provider="users" finished-at="2023-04-02T18:54:27 EDT" duration-ms="8253" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[julia]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2213]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_negative_login_using_dataprovider -->
+        <test-method is-config="true" signature="closeAll()[pri:0, instance:login.NegativeLoginTest@1460a8c0]" started-at="2023-04-02T18:54:27 EDT" name="closeAll" finished-at="2023-04-02T18:54:29 EDT" duration-ms="2492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAll -->
+        <test-method is-config="true" signature="openURL(java.lang.String)[pri:0, instance:login.NegativeLoginTest@1460a8c0]" started-at="2023-04-02T18:54:29 EDT" name="openURL" finished-at="2023-04-02T18:54:35 EDT" duration-ms="5896" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method signature="TC02_negative_login_using_dataprovider(java.lang.String,java.lang.String)[pri:0, instance:login.NegativeLoginTest@1460a8c0]" started-at="2023-04-02T18:54:35 EDT" name="TC02_negative_login_using_dataprovider" data-provider="users" finished-at="2023-04-02T18:54:44 EDT" duration-ms="9245" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_negative_login_using_dataprovider -->
+        <test-method is-config="true" signature="closeAll()[pri:0, instance:login.NegativeLoginTest@1460a8c0]" started-at="2023-04-02T18:54:44 EDT" name="closeAll" finished-at="2023-04-02T18:54:47 EDT" duration-ms="2520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAll -->
+        <test-method is-config="true" signature="openURL(java.lang.String)[pri:0, instance:login.NegativeLoginTest@1460a8c0]" started-at="2023-04-02T18:54:47 EDT" name="openURL" finished-at="2023-04-02T18:54:53 EDT" duration-ms="5835" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method signature="TC03_negative_login_csv(java.lang.String,java.lang.String)[pri:0, instance:login.NegativeLoginTest@1460a8c0]" started-at="2023-04-02T18:54:53 EDT" name="TC03_negative_login_csv" data-provider="users_from_csv" finished-at="2023-04-02T18:55:02 EDT" duration-ms="9118" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03_negative_login_csv -->
+        <test-method is-config="true" signature="closeAll()[pri:0, instance:login.NegativeLoginTest@1460a8c0]" started-at="2023-04-02T18:55:02 EDT" name="closeAll" finished-at="2023-04-02T18:55:04 EDT" duration-ms="2491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAll -->
+        <test-method is-config="true" signature="openURL(java.lang.String)[pri:0, instance:login.NegativeLoginTest@1460a8c0]" started-at="2023-04-02T18:55:04 EDT" name="openURL" finished-at="2023-04-02T18:55:10 EDT" duration-ms="5555" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method signature="TC03_negative_login_csv(java.lang.String,java.lang.String)[pri:0, instance:login.NegativeLoginTest@1460a8c0]" started-at="2023-04-02T18:55:10 EDT" name="TC03_negative_login_csv" data-provider="users_from_csv" finished-at="2023-04-02T18:55:19 EDT" duration-ms="8786" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03_negative_login_csv -->
+        <test-method is-config="true" signature="closeAll()[pri:0, instance:login.NegativeLoginTest@1460a8c0]" started-at="2023-04-02T18:55:19 EDT" name="closeAll" finished-at="2023-04-02T18:55:21 EDT" duration-ms="2499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAll -->
+        <test-method is-config="true" signature="openURL(java.lang.String)[pri:0, instance:login.NegativeLoginTest@1460a8c0]" started-at="2023-04-02T18:55:21 EDT" name="openURL" finished-at="2023-04-02T18:55:30 EDT" duration-ms="8236" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method signature="TC03_negative_login_csv(java.lang.String,java.lang.String)[pri:0, instance:login.NegativeLoginTest@1460a8c0]" started-at="2023-04-02T18:55:30 EDT" name="TC03_negative_login_csv" data-provider="users_from_csv" finished-at="2023-04-02T18:55:39 EDT" duration-ms="9075" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test23]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$3243]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03_negative_login_csv -->
+        <test-method is-config="true" signature="closeAll()[pri:0, instance:login.NegativeLoginTest@1460a8c0]" started-at="2023-04-02T18:55:39 EDT" name="closeAll" finished-at="2023-04-02T18:55:41 EDT" duration-ms="2476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAll -->
+        <test-method is-config="true" signature="openURL(java.lang.String)[pri:0, instance:login.NegativeLoginTest@1460a8c0]" started-at="2023-04-02T18:55:41 EDT" name="openURL" finished-at="2023-04-02T18:55:46 EDT" duration-ms="5054" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method signature="TC03_negative_login_csv(java.lang.String,java.lang.String)[pri:0, instance:login.NegativeLoginTest@1460a8c0]" started-at="2023-04-02T18:55:46 EDT" name="TC03_negative_login_csv" data-provider="users_from_csv" finished-at="2023-04-02T18:56:08 EDT" duration-ms="21971" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test45]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[000000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03_negative_login_csv -->
+        <test-method is-config="true" signature="closeAll()[pri:0, instance:login.NegativeLoginTest@1460a8c0]" started-at="2023-04-02T18:56:08 EDT" name="closeAll" finished-at="2023-04-02T18:56:11 EDT" duration-ms="2488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAll -->
+        <test-method is-config="true" signature="openURL(java.lang.String)[pri:0, instance:login.NegativeLoginTest@1460a8c0]" started-at="2023-04-02T18:56:11 EDT" name="openURL" finished-at="2023-04-02T18:56:16 EDT" duration-ms="5076" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method signature="TC03_negative_login_csv(java.lang.String,java.lang.String)[pri:0, instance:login.NegativeLoginTest@1460a8c0]" started-at="2023-04-02T18:56:16 EDT" name="TC03_negative_login_csv" data-provider="users_from_csv" finished-at="2023-04-02T18:56:25 EDT" duration-ms="9309" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[$#$#]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[23232]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03_negative_login_csv -->
+        <test-method is-config="true" signature="closeAll()[pri:0, instance:login.NegativeLoginTest@1460a8c0]" started-at="2023-04-02T18:56:25 EDT" name="closeAll" finished-at="2023-04-02T18:56:27 EDT" duration-ms="2499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAll -->
+      </class> <!-- login.NegativeLoginTest -->
+      <class name="form.TestNGTestForm">
+        <test-method signature="testCheckBoxes()[pri:0, instance:form.TestNGTestForm@6e75aa0d]" started-at="2023-04-02T18:57:03 EDT" name="testCheckBoxes" finished-at="2023-04-02T18:57:03 EDT" duration-ms="4" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.19.0-38-generic', java.version: '11.0.18'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, findElements {using=xpath, value=//input[@type='checkbox']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, moz:accessibilityChecks: false, moz:buildID: 20230321162322, moz:debuggerAddress: 127.0.0.1:16416, moz:geckodriverVersion: 0.32.2, moz:headless: true, moz:platformVersion: 5.19.0-38-generic, moz:processID: 42471, moz:profile: /tmp/rust_mozprofileos5Tqa, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://127.0.0.1:16416/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.19.0-38-generic', java.version: '11.0.18'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, findElements {using=xpath, value=//input[@type='checkbox']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, moz:accessibilityChecks: false, moz:buildID: 20230321162322, moz:debuggerAddress: 127.0.0.1:16416, moz:geckodriverVersion: 0.32.2, moz:headless: true, moz:platformVersion: 5.19.0-38-generic, moz:processID: 42471, moz:profile: /tmp/rust_mozprofileos5Tqa, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://127.0.0.1:16416/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:154)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:179)
+at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:102)
+at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:367)
+at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:359)
+at form.TestNGTestForm.testCheckBoxes(TestNGTestForm.java:48)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckBoxes -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:form.TestNGTestForm@6e75aa0d]" started-at="2023-04-02T18:57:03 EDT" name="beforeMethod" finished-at="2023-04-02T18:57:03 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:form.TestNGTestForm@6e75aa0d]" started-at="2023-04-02T18:57:03 EDT" name="afterMethod" finished-at="2023-04-02T18:57:05 EDT" duration-ms="2001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:form.TestNGTestForm@6e75aa0d]" started-at="2023-04-02T18:57:05 EDT" name="beforeMethod" finished-at="2023-04-02T18:57:05 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testTextBoxes()[pri:0, instance:form.TestNGTestForm@6e75aa0d]" started-at="2023-04-02T18:57:05 EDT" name="testTextBoxes" finished-at="2023-04-02T18:57:05 EDT" duration-ms="1" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.19.0-38-generic', java.version: '11.0.18'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, findElement {using=id, value=text1}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, moz:accessibilityChecks: false, moz:buildID: 20230321162322, moz:debuggerAddress: 127.0.0.1:16416, moz:geckodriverVersion: 0.32.2, moz:headless: true, moz:platformVersion: 5.19.0-38-generic, moz:processID: 42471, moz:profile: /tmp/rust_mozprofileos5Tqa, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://127.0.0.1:16416/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.19.0-38-generic', java.version: '11.0.18'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, findElement {using=id, value=text1}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, moz:accessibilityChecks: false, moz:buildID: 20230321162322, moz:debuggerAddress: 127.0.0.1:16416, moz:geckodriverVersion: 0.32.2, moz:headless: true, moz:platformVersion: 5.19.0-38-generic, moz:processID: 42471, moz:profile: /tmp/rust_mozprofileos5Tqa, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://127.0.0.1:16416/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:154)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at form.TestNGTestForm.testTextBoxes(TestNGTestForm.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTextBoxes -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:form.TestNGTestForm@6e75aa0d]" started-at="2023-04-02T18:57:05 EDT" name="afterMethod" finished-at="2023-04-02T18:57:07 EDT" duration-ms="2002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- form.TestNGTestForm -->
+      <class name="login.PositiveLoginTest">
+        <test-method is-config="true" signature="openURL(java.lang.String)[pri:0, instance:login.PositiveLoginTest@4f638935]" started-at="2023-04-02T18:56:27 EDT" name="openURL" finished-at="2023-04-02T18:56:34 EDT" duration-ms="6024" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method signature="TC01_positive_login()[pri:0, instance:login.PositiveLoginTest@4f638935]" started-at="2023-04-02T18:56:34 EDT" name="TC01_positive_login" finished-at="2023-04-02T18:57:01 EDT" duration-ms="27417" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchFrameException">
+            <message>
+              <![CDATA[Unable to locate frame with index: 0
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.19.0-38-generic', java.version: '11.0.18'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [1371d0c0-9390-4815-b504-dca58a424f64, switchToFrame {id=0}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, moz:accessibilityChecks: false, moz:buildID: 20230321162322, moz:debuggerAddress: 127.0.0.1:16416, moz:geckodriverVersion: 0.32.2, moz:headless: true, moz:platformVersion: 5.19.0-38-generic, moz:processID: 42471, moz:profile: /tmp/rust_mozprofileos5Tqa, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://127.0.0.1:16416/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1371d0c0-9390-4815-b504-dca58a424f64]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchFrameException: Unable to locate frame with index: 0
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.19.0-38-generic', java.version: '11.0.18'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [1371d0c0-9390-4815-b504-dca58a424f64, switchToFrame {id=0}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, moz:accessibilityChecks: false, moz:buildID: 20230321162322, moz:debuggerAddress: 127.0.0.1:16416, moz:geckodriverVersion: 0.32.2, moz:headless: true, moz:platformVersion: 5.19.0-38-generic, moz:processID: 42471, moz:profile: /tmp/rust_mozprofileos5Tqa, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://127.0.0.1:16416/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1371d0c0-9390-4815-b504-dca58a424f64
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:1000)
+at login.PositiveLoginTest.TC01_positive_login(PositiveLoginTest.java:17)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchFrameException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_positive_login -->
+        <test-method is-config="true" signature="closeAll()[pri:0, instance:login.PositiveLoginTest@4f638935]" started-at="2023-04-02T18:57:01 EDT" name="closeAll" finished-at="2023-04-02T18:57:03 EDT" duration-ms="2519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAll -->
+      </class> <!-- login.PositiveLoginTest -->
+      <class name="testNg.Test2">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testNg.Test2@1a0dcaa]" started-at="2023-04-02T18:52:46 EDT" name="beforeSuite" finished-at="2023-04-02T18:52:46 EDT" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testNg.Test2@1a0dcaa]" started-at="2023-04-02T18:52:46 EDT" name="beforeTest" finished-at="2023-04-02T18:52:46 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testNg.Test2@1a0dcaa]" started-at="2023-04-02T18:52:46 EDT" name="beforeClass" finished-at="2023-04-02T18:52:46 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNg.Test2@1a0dcaa]" started-at="2023-04-02T18:52:46 EDT" name="beforeMethod" finished-at="2023-04-02T18:52:46 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testMethod3()[pri:0, instance:testNg.Test2@1a0dcaa]" started-at="2023-04-02T18:52:46 EDT" name="testMethod3" finished-at="2023-04-02T18:52:46 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod3 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNg.Test2@1a0dcaa]" started-at="2023-04-02T18:52:46 EDT" name="afterMethod" finished-at="2023-04-02T18:52:46 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNg.Test2@1a0dcaa]" started-at="2023-04-02T18:52:46 EDT" name="beforeMethod" finished-at="2023-04-02T18:52:46 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testMethod4()[pri:0, instance:testNg.Test2@1a0dcaa]" started-at="2023-04-02T18:52:46 EDT" name="testMethod4" finished-at="2023-04-02T18:52:46 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod4 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNg.Test2@1a0dcaa]" started-at="2023-04-02T18:52:46 EDT" name="afterMethod" finished-at="2023-04-02T18:52:46 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testNg.Test2@1a0dcaa]" started-at="2023-04-02T18:52:46 EDT" name="afterClass" finished-at="2023-04-02T18:52:46 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testNg.Test2@1a0dcaa]" started-at="2023-04-02T18:57:16 EDT" name="afterTest" finished-at="2023-04-02T18:57:16 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testNg.Test2@1a0dcaa]" started-at="2023-04-02T18:57:16 EDT" name="afterSuite" finished-at="2023-04-02T18:57:16 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testNg.Test2 -->
+      <class name="testNg.Test1">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testNg.Test1@8909f18]" started-at="2023-04-02T18:52:46 EDT" name="beforeClass" finished-at="2023-04-02T18:52:46 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="testMethod()[pri:0, instance:testNg.Test1@8909f18]" started-at="2023-04-02T18:52:46 EDT" name="testMethod" finished-at="2023-04-02T18:52:46 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNg.Test1@8909f18]" started-at="2023-04-02T18:52:46 EDT" name="beforeMethod" finished-at="2023-04-02T18:52:46 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNg.Test1@8909f18]" started-at="2023-04-02T18:52:46 EDT" name="afterMethod" finished-at="2023-04-02T18:52:46 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="testMethod2()[pri:0, instance:testNg.Test1@8909f18]" started-at="2023-04-02T18:52:46 EDT" name="testMethod2" finished-at="2023-04-02T18:52:46 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod2 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNg.Test1@8909f18]" started-at="2023-04-02T18:52:46 EDT" name="beforeMethod" finished-at="2023-04-02T18:52:46 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNg.Test1@8909f18]" started-at="2023-04-02T18:52:46 EDT" name="afterMethod" finished-at="2023-04-02T18:52:46 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testNg.Test1@8909f18]" started-at="2023-04-02T18:52:46 EDT" name="afterClass" finished-at="2023-04-02T18:52:46 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testNg.Test1 -->
+      <class name="form.TestForm">
+        <test-method signature="radioOne()[pri:0, instance:form.TestForm@7fc229ab]" started-at="2023-04-02T18:57:07 EDT" name="radioOne" finished-at="2023-04-02T18:57:16 EDT" duration-ms="8530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- radioOne -->
+      </class> <!-- form.TestForm -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

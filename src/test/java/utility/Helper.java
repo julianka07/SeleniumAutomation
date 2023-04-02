@@ -18,6 +18,7 @@ public class Helper {
     static WebDriver driver= null;
 
     public static WebDriver setupBrowser(String browserCode) {
+        System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver");
         ChromeOptions chromeOptions =new ChromeOptions();
         chromeOptions.addArguments("--headless");
         chromeOptions.addArguments("--incognito");
