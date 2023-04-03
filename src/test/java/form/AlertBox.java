@@ -9,7 +9,7 @@ import static utility.Helper.tearDown;
 public class AlertBox {
     public static void main(String[] args) throws InterruptedException {
         String url="https://theautomationtechies.com/web-elements-for-ui-testing/";
-        WebDriver driver = setupBrowser(url, 1500, "CH");
+        WebDriver driver = setupBrowser("CH");
         try{
             //Alert Button
             driver.findElement(By.xpath("//*[@id=\"post-body-4292417847084983089\"]/div/input")).click();

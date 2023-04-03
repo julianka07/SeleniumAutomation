@@ -2,7 +2,6 @@ package HomeWorkCRM;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.testng.annotations.*;
 import utility.Helper;
 
@@ -12,7 +11,7 @@ public class CRMtest {
 
     @BeforeTest
     public void setupFirst() {
-        driver = Helper.setupBrowser(url, 100, "CH");
+        driver = Helper.setupBrowser("CH");
     }
     @AfterTest
     public void closeAll() throws InterruptedException {

@@ -20,7 +20,7 @@ public class Checkboxes {
      */
     public static void main(String[] args) throws InterruptedException {
         String url="https://theautomationtechies.com/web-elements-for-ui-testing/";
-        WebDriver driver = setupBrowser(url, 1000, "CH");
+        WebDriver driver = setupBrowser("CH");
 //      Print the Value for All form.Checkboxes
 
         List<WebElement> allCheckBoxes = driver.findElements(By.xpath("//input[@type='checkbox']"));

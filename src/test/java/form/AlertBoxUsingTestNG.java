@@ -15,8 +15,8 @@ public class AlertBoxUsingTestNG {
     @BeforeMethod
     public void setup(){
         String url="https://theautomationtechies.com/web-elements-for-ui-testing/";
-        driver = setupBrowser(url, 1500, "CH");
-        driver = setupBrowser(url, 1500, "FF");
+        driver = setupBrowser("CH");
+        driver = setupBrowser("FF");
     }
     //Test Method
     @Test

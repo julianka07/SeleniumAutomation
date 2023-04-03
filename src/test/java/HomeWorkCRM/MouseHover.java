@@ -2,14 +2,10 @@ package HomeWorkCRM;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import utility.Helper;
-
-import java.util.concurrent.TimeUnit;
 
 public class MouseHover {
     String url= "https://suitecrm.theautomationtechies.com/public/index.php#/Login";
@@ -17,7 +13,7 @@ public class MouseHover {
 
     @BeforeClass
     public void setupFirst() {
-        driver = Helper.setupBrowser(url, 100, "CH");
+        driver = Helper.setupBrowser("CH");
     }
     @AfterClass
     public void closeAll() throws InterruptedException {

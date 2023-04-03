@@ -12,7 +12,7 @@ import static utility.Helper.tearDown;
 public class Promtbuttons {
     public static void main(String[] args) throws InterruptedException {
         String url="https://theautomationtechies.com/web-elements-for-ui-testing/";
-        WebDriver driver = setupBrowser(url, 1500, "CH");
+        WebDriver driver = setupBrowser("CH");
         try{
             //    Confirmation popup button
             driver.findElement(By.xpath("//*[@id=\"post-body-4292417847084983089\"]/div/button[1]")).click();

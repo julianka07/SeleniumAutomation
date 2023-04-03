@@ -28,7 +28,7 @@ public class TestNGTestForm {
 //    }
     @BeforeMethod
     public void beforeMethod(){
-        driver = setupBrowser(url, 1500, "CH");
+        driver = setupBrowser("CH");
     }
     //Test Method
     @Test

@@ -6,7 +6,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -45,7 +48,18 @@ public class Helper {
 
         return driver;
     }
-    public static WebDriver setupBrowser(String url, int scrollBy, String browserCode) {
+        public static WebDriver setupBrowserOnGrid(String browser) {
+        browser = browser.equals("FF") ? "firefox" : "chrome";
+        CapabilityFactory capabilityFactory = new CapabilityFactory();
+        try {
+            driver = (new RemoteWebDriver(new URL("http://localhost:4444"), capabilityFactory.getCapabilities(browser)));
+        } catch (MalformedURLException e) {
+            e.printStackTrace();
+        }
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
+        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(60));
+        driver.manage().timeouts().scriptTimeout(Duration.ofSeconds(30));
         return driver;
     }
 

@@ -26,7 +26,7 @@ public class BaseTest {
         if(browserCode ==null){
             browserCode="FF";
         }
-        driver = Helper.setupBrowser(browserCode);
+        driver = Helper.setupBrowserOnGrid(browserCode);
         Helper.navigateToUrl(url, 500);
     }
 }

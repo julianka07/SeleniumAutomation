@@ -13,7 +13,7 @@ import static utility.Helper.setupBrowser;
 public class Form {
     public static void main(String[] args) throws InterruptedException {
     String url="https://theautomationtechies.com/web-elements-for-ui-testing/";
-    WebDriver driver = setupBrowser(url, 500, "CH");
+    WebDriver driver = setupBrowser("CH");
     if (driver.findElement(By.id("text1")).isEnabled()==true){
         System.out.println("Text1");
         driver.findElement(By.id("text1")).sendKeys("Muxa");
