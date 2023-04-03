@@ -19,10 +19,12 @@ public class Helper {
 
     public static WebDriver setupBrowser(String browserCode) {
         System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver");
+        System.setProperty("webdriver.gecko.driver", "./drivers/geckodriver");
         ChromeOptions chromeOptions =new ChromeOptions();
         chromeOptions.addArguments("--headless");
         chromeOptions.addArguments("--incognito");
         chromeOptions.addArguments("--ignore-errors");
+
         FirefoxOptions firefoxOptions =new FirefoxOptions();
         firefoxOptions.addArguments("--headless");
         firefoxOptions.addArguments("--incognito");
